@@ -1,7 +1,8 @@
 function Paragraph(props) {
 
   let style = {
-    fontSize: props.size
+    fontSize: props.size,
+    color: props.color
   };
 
 
