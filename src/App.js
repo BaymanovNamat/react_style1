@@ -8,6 +8,7 @@ import eyewolf2Image from "./assets/eyewolf2.jpg";
 
 import Image from "./components/Image/Image";
 import Paragraph from "./components/Paragraph/Paragraph";
+import Alert from "./components/Alert/Alert";
 
 
 function App() {
@@ -42,6 +43,19 @@ function App() {
     <Image url={eyewolf2Image} width="200px" height="150px"/>
 
     <Image url="https://static.dw.com/image/18461425_303.jpg" width="200px" align="right"/>
+
+
+    <hr/>
+
+
+    <Alert size="24px">
+      This is simple alert!
+    </Alert>
+
+
+    <Alert size="24px" secondary>
+      This is simple alert!
+    </Alert>
 
     </div>
 

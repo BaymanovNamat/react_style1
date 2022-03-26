@@ -1,0 +1,12 @@
+.Alert {
+  color: rgb(31, 141, 141);
+  border-color: rgb(69, 156, 156);
+
+  padding: 1rem .5rem;
+  background-color: aquamarine;
+  border-radius: 1rem;
+}
+.Alert.secondary {
+  background-color: rgb(192, 158, 224);
+  color: rgb(140, 224, 140);
+}
