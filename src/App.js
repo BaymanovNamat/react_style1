@@ -9,9 +9,16 @@ import eyewolf2Image from "./assets/eyewolf2.jpg";
 import Image from "./components/Image/Image";
 import Paragraph from "./components/Paragraph/Paragraph";
 import Alert from "./components/Alert/Alert";
+import Buttons from "./components/Buttons/Buttons";
 
 
 function App() {
+
+  const styles = {
+    display: "flex",
+  };
+
+
   return (
     <div className="App">
       <>
@@ -54,8 +61,78 @@ function App() {
 
 
     <Alert size="24px" secondary>
-      This is simple alert!
+      This is secondary alert!
     </Alert>
+
+
+    <Alert size="24px" success>
+      This is succecc alert!
+    </Alert>
+
+    <Alert size="24px" danger>
+      This is danger alert!
+    </Alert>
+
+    <Alert size="24px" warring>
+      This is warring alert!
+    </Alert>
+
+
+    <Alert size="24px" light>
+      This is light alert!
+    </Alert>
+    <Alert size="24px" dark>
+      This is dark alert!
+    </Alert>
+
+    <hr/>
+
+
+    <div style={styles}  >
+      <Buttons primary>
+        Primary
+      </Buttons>
+
+      <Buttons secondary>
+        Secondary
+      </Buttons>
+      <Buttons success>
+        Succecc
+      </Buttons>
+
+      <Buttons danger>
+        Danger
+      </Buttons>
+
+
+      <Buttons warring>
+        Warring
+      </Buttons>
+
+
+      <Buttons info>
+        Info
+      </Buttons>
+
+      <Buttons light>
+        Light
+      </Buttons>
+
+      <Buttons dark>
+        Dark
+      </Buttons>
+
+      <Buttons link>
+        Link
+      </Buttons>
+    </div>
+
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
 
     </div>
 

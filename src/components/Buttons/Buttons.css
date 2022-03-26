@@ -1,0 +1,62 @@
+.Buttons {
+  display: flex;
+}
+.button {
+  font-size: 30px;
+  padding: 15px 40px;
+  border-radius: 1rem;
+}
+/* .button:hover {
+  background-color: rgb(0, 0, 223);
+} */
+
+.button.primary {
+  background-color: rgb(0, 0, 255);
+  color: rgb(253, 62, 62);
+}
+.button.primary:hover {
+  background-color: rgb(65, 255, 40);
+}
+.button.secondary {
+  background-color: rgb(105, 105, 117);
+  color: rgb(0, 26, 255);
+}
+.button.secondary:hover {
+  background-color: rgb(65, 255, 40);
+}
+.button.success {
+  background-color: rgb(7, 151, 14);
+  color: rgb(107, 255, 114);
+}
+
+.button.danger {
+  background-color: rgb(161, 12, 12);
+  color: rgb(48, 125, 177);
+}
+
+
+.button.warring {
+  background-color: rgb(255, 239, 11);
+  color: rgb(91, 228, 114);
+}
+
+.button.info {
+  background-color: rgb(59, 223, 214);
+  color: rgb(65, 201, 87);
+}
+
+.button.light {
+  background-color: rgb(255, 255, 255);
+  color: rgb(172, 35, 35);
+}
+
+.button.dark {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.button.link {
+  background-color: rgb(255, 255, 255);
+  color: rgb(16, 94, 167);
+  text-decoration: underline;
+}
