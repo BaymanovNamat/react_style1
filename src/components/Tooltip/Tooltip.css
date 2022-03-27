@@ -1,0 +1,93 @@
+.Tooltip {
+  border: 1px solid green;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 3px;
+}
+
+.button {
+  color: white;
+  background-color: rgb(68, 62, 62);
+  padding: 1rem 35px;
+  border-radius: 1rem;
+  font-size: 26px;
+  /* position: absolute;
+  top: 10px;
+  left: 0; */
+}
+
+
+
+.top:hover.description::before {
+  position: absolute;
+  top: -63px;
+  left: 0px;
+  font-size: 24px;
+  padding: 15px 30px;
+  transform: translateX(10px);
+  border-radius: 20px 20px 20px 0px;
+
+  content: attr(description);
+  color: green;
+  width: 150px;
+  height: 30px;
+  background-color: red;
+}
+
+.left:hover.description::before {
+  content: attr(description);
+  color: rgb(0, 0, 0);
+  width: 150px;
+  height: 30px;
+  background-color: rgb(227, 47, 243);
+
+
+  position: absolute;
+  top: 0px;
+  left: -220px;
+  font-size: 24px;
+  padding: 15px 30px;
+  transform: translateX(10px);
+  border-radius: 20px 20px 0px 20px;
+}
+
+.bottom:hover.description::before {
+  content: attr(description);
+  color: rgb(56, 255, 56);
+  width: 150px;
+  height: 30px;
+  background-color: rgb(39, 77, 247);
+
+
+
+  position: absolute;
+  bottom: -72px;
+  left: 0px;
+  font-size: 24px;
+  padding: 20px 40px;
+  transform: translateX(15px);
+  border-radius: 20px 20px 20px 20px;
+
+}
+
+
+
+.right:hover.description::before {
+  content: attr(description);
+  color: rgba(255, 0, 0, 0.952);
+  width: 150px;
+  height: 30px;
+  background-color: rgb(48, 216, 42);
+
+
+
+  position: absolute;
+  top: 0px;
+  right: -200px;
+  font-size: 24px;
+  padding: 15px 30px;
+  transform: translateX(10px);
+  border-radius: 20px 20px 20px 0px;
+
+}

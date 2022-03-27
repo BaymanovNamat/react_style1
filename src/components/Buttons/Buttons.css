@@ -1,5 +1,5 @@
 .Buttons {
-  display: flex;
+  display: block;
 }
 .button {
   font-size: 30px;
