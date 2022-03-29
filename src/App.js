@@ -41,8 +41,6 @@ function App() {
 
       <Image url={wolfImage} width="150px" height="150px" />
 
-      <img src={wolfImage} width="150px" height="150px" />
-
       <Image url={eyewolfImage} width="200px" height="150px" />
 
       <Image url={eyewolf2Image} width="200px" height="150px" />
