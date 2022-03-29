@@ -16,7 +16,7 @@ function Image(props) {
       <span>
         <img src={props.url} 
           style={style} 
-          className={className.join(" ")}/>
+          className={className.join(" ")} alt="#"/>
         {props.children}
       </span>
   );
