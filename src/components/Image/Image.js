@@ -2,7 +2,7 @@ import "./Image.css";
 
 function Image(props) {
 
-  let className = ["Image", props.align].join(" ");
+  let className = ["Image", props.align];
 
 
   let style = {
@@ -13,9 +13,12 @@ function Image(props) {
 
 
   return (
-      <img src={props.url} 
-      style={style} 
-      className={className}/>
+      <span>
+        <img src={props.url} 
+          style={style} 
+          className={className.join(" ")}/>
+        {props.children}
+      </span>
   );
 }
 
